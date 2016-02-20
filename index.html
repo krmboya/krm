@@ -1,45 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> Ken's page on the Internetworks </title>
 
-    <title> ken's internetz page </title>
-    <link rel="stylesheet" type="text/CSS" href="stylesheet.css">
-
-    <meta charset="UTF-8">
-    <meta name="description" content="My First Website">
-    <meta name="keywords" content="programmer unix python lisp c ">
-
+    <!-- favicon --->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
 
-    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700|Pacifico' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap-3.3.6.min.css" rel="stylesheet">
 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-   
+
+    <!-- begin content -->
     <div class="container">
-
-      <img src="img/krm.png" alt="internetz photo" />
       
-      <h1>Kenny Rachuonyo</h1>
-      
-      <h2>Maker of stuffz</h2>
+      <div class="row" style="margin-top: 10%">
+	
+	<div class="col-md-2 center-block" style="float: none">
+	  <img src="static/img/krm.png" style="max-width: 120px" 
+	       class="center-block"/>
+	</div>
+      </div>
 
-      <p>Making good use of all that has been given to me</p>
-
-      <ul>
-        <li><a href="http://twitter.com/krmboya" 
-	       title="Follow me on Twitter" target="_blank">Twitter</a></li>
-        <li><a href="https://plus.google.com/111093380192761823841/posts" 
-	       title="Find me at g+" target="_blank">G+</a></li>
-        <li><a href="http://github.com/krmboya" 
-	       title="View and contribute to my projects on GitHub" 
-	       target="_blank">GitHub</a></li>
-      </ul>
-
+      <div class="row">
+	<div class="col-md-8 text-center center-block" 
+	     style="float: none">
+	  <p> Making good use of all that's been given to me </p>
+	  <p>
+	    Find me on: <br/>
+	    <a href="https://github.com/krmboya" target="_blank">[github]</a>
+	    <a href="https://twitter.com/krmboya" target="_blank">[twitter]</a>
+	    <a href="https://plus.google.com/111093380192761823841/posts"
+	       target="_blank">[g+]</a> 
+	  </p>
+	</div>
+      </div>
     </div>
-
   </body>
 </html>
